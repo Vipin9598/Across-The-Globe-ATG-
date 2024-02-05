@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-container {
+  background: url('./assets/Rectangle\ 2.png') no-repeat center center fixed;
+  background-size: cover;
+  height:100vh; 
+  width: 100vw;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; 
+}
+
+.homeButton{
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; 
+}
+
+@media screen and (max-width:400px) {
+    
+  .homeButton{
+    position: absolute;
+    top: 20%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+  }
+
+  /* .text-box {
+    position: absolute;
+    bottom: -20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+  } */
+  
+}
+
+.text-box h1 {
+  font-size: 2.5em; 
+  margin-bottom: 20px; 
+}
+
+.text-box p {
+  font-size: 1.5em;
+}
+
+.drop::after {
+  display: none !important; 
+}
+
+.locationContainer{
+  height: fit-content;
+}
+.item2{
+  position: absolute;
+  right: 0%;
+  top: 20%;
+}
+.item1{
+  position: absolute;
+  left: 2%;
+  top: 20%;
+}
+.eye ,.search{
+  position: absolute;
+  right: 5%;
+  top: 35%;
+}
+.bgShade{
+  background-color:  #EFFFF4;
+  font-size: 8px;
+  color: #008A45;
+}
+@media screen and  (min-width:992px){
+  .form{
+    width: 50% !important; 
+  }
+}
+
+
+@media screen and  (max-width:992px){
+  .form{
+    width: 100% !important; 
+  }
+}
